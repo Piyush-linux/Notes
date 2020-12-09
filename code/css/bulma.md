@@ -1,13 +1,14 @@
 # BulmaCSS
 ---
+<!-- #head,.class,:attr,/opt,|->append,=>child,(tag) -->
 ### General
 - |$Color :: white,black,primary,link,info,success,warning,danger,light,dark
 - |$shade :: light,dark
 - |$d :: mobile,touch,tablet,desktop,widescreen,fullhd
-- |Size|>is-size-$n-/-$d :: n=1,2,3,4,5,6,7 || small,medium,large
-- |Utility|>is-$ :: pulled-left/right,radiusless,unselectable,relative
-- |Background|>has-background-$color-/-$shade ::
-- |Spacing|>$S-$px :: 
+- |Size |> is-size-$n-/-$d :: n=1,2,3,4,5,6,7 || small,medium,large
+- |Utility |> is-$ :: pulled-left/right,radiusless,unselectable,relative
+- |Background |> has-background-$color-/-$shade ::
+- |Spacing |> $S-$px :: 
     - |$=m-margin,p-padding|
     - |S=x-horizontal,y-vertical,t-top,b-bottom,l-left,r-right|
     - $px:0,1,2,3,4,5,6, {| mt-3:margin top 0.75rem |}
@@ -58,10 +59,17 @@ _is-align-content-$pos_
 ## Element
 - |Block |> .block :: [space for each divide]
 - |Box |> .box
-- |Button 
-    - |.f.has-addons.is-$pos -> .c+.c -> .button.is-$color.is-$size.is-fullwidth/-outlined/-inverted/-rounded/-loading/-static 
-    - |-> .buttons>.button |-> button>(span).icon.is-$size>i.fa.fa-icon + (span)
+- |Button |>.f.has-addons.is-$pos -> .c+.c -> 
+- |->.button.is-$color.is-$size.is-fullwidth/-outlined/-inverted/-rounded/-loading/-static 
+- |--> .buttons.has-addons.is-$pos>.button |-> button>(span).icon.is-$size>i.fa.fa-icon + (span){txt}
+- |Content|>.content
+- |Delete |> (a|button).delete.is-$size
+- |Images |> (figure).image.is-$imgSize => img:src.is-rounded
+- |Notification |> .notification.is-$color => .delete+{txt}
+- |ProgressBar |> (progress:value:max).progress.is-$color/$size
+- |Tag |> .f => .c => (span).tag.is-$color/$size/rounded/delete |-> .tags.has-addons => (span).tag
+- |Title |> .title.is-$size/-spaced || .subtitle.is-$size
 
 ## Component
-- s
 - |Navbar|>nav.navbar=>[.navbar-brand->.navbar-items/.navbar-burger->span]+[]
+- |
