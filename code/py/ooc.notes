@@ -1,0 +1,26 @@
+-----------------------------------------------------------
+    Title
+-----------------------------------------------------------
+Head: description => F(functon)
+==SUB== [a=1][b=2] var_value
+//print var
+1. a_345 >>-<2>
+2. O(a)
+//function table
+1. F(x)>>- m=x*n >- O(m) >- n++ >-< F(x)
+2. F(<>)
+[py]
+n=1
+def table(x):
+	global n
+	m=0
+	m=x*n
+	print(f"{x} X {n} = {m}")
+	n=n+1
+	if n<=10:
+		table(x)
+	else:
+		print("Thank you")
+table(2)
+[py]
+==Hello==
