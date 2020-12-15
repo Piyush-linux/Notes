@@ -1,13 +1,3 @@
-<style type="text/css" media="screen">
-@font-face {
-  font-family: Fira code;
-  src: url(../FiraCode.woff);
-}
-    body{
-	        font-family:Fira code
-    }
-  </style>
-
 # BulmaCSS
 > ### :attr | parent_child | side1-side2 | .class | #id
 <!-- #head,.class,:attr,/opt,|->append,=>child,(tag) -->
@@ -81,6 +71,14 @@ _is-align-content-$pos_
 - |Title |> .title.is-$size/-spaced || .subtitle.is-$size
 
 ## Component
-- |Navbar |> (nav).navbar_[.navbar-brand_.navbar-items/.navbar-burger->span]+[]
-- BreadCrumb |> (nav).breadcrumb_ul_li_a:href
-<h1 style="color:red">Hello</h1>
+- Navbar 
+    - (nav).navbar
+        - .navbar-brand_
+            - .navbar-items
+        - .navbar-burger
+            - (span)**3*
+- BreadCrumb 
+	- nav.breadcrumb.is-centered.has-arrow/bullet/dot-separator.is-$size
+		- ul
+            - li / .is-active
+                -  a:href {txt}/{icon-txt}
