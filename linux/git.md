@@ -1,6 +1,6 @@
 # History
 ---
-+ Application
++ __Application__
     - It is version control system
     - Usage for change in data file which can be track
     - Roll back to working
@@ -14,7 +14,7 @@
     - Alike Centralized VSC
     - Complete history backup is available
     - Initialization of git
-    - Hosted : GitHub,GitLab,BitBucket
+    - Hosted :: GitHub,GitLab,BitBucket
 
 # Uses
 ---
@@ -34,7 +34,6 @@
 
 # Architecture
 ---
-<img stage-checkout-staging-commit>
 - _Commit_ : Snapshot the file
 - _Working dir_:Git Initialized Folder
 - _Staging area_:file to commit
