@@ -1,10 +1,11 @@
-# History
+# :space_invader: History
 ---
+<<<<<<< HEAD
 + __Application__
     - It is version control system
     - Usage for change in data file which can be track
     - Roll back to working
-+ VSC-local
++ :b: VSC-local
     - local VSC track file
     - If local HDD is destroyed then every file is gone
 + Centralized VSC
