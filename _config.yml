@@ -1,6 +1,7 @@
 
 layout: page
 titlse: Notes
+logo: ./cat.png
 permalink: ./index.md
 theme: jekyll-theme-minimal
 author: Piyush
