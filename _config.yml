@@ -1,5 +1,7 @@
-titlse: Notes
+
 layout: page
+titlse: Notes
+permalink: ./index.md
 theme: jekyll-theme-minimal
 author: Piyush
 description: >-
