@@ -14,7 +14,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 <details>
 <summary>GIT</summary>
-```
+
 - `git rm -rf .git` : Git repo deleted
 - `git log -p / git` log -np / 
 - `git log -stat` : In short commit with details
@@ -23,7 +23,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 - `since=2.day` : commit in two day's 
 - `--pretty=format` : "%h --%an"
 - `git commit -amend` : to make change
-```
+
 </details>
 ---
 
@@ -33,5 +33,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ---
 
-![Poster](ab.png)
+<img src="ab.png" width="100%">
 
