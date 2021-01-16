@@ -5,3 +5,5 @@ author: Piyush
 description: >-
   Learn how to create a site or blog from your GitHub repositories with GitHub
   Pages.
+markdown: kramdown
+
