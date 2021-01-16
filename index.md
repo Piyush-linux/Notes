@@ -14,7 +14,9 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 <details>
 <summary>GIT</summary>
-- `git rm -rf .git` : Git repo deleted
+  
+- git rm -rf .git : Git repo deleted
+
   - `git log -p / git` log -np / 
 - `git log -stat` : In short commit with details
 - `--pretty=short` : all commit with detail
@@ -22,7 +24,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 2. `since=2.day` : commit in two day's 
 - `--pretty=format` : "%h --%an"
 - `git commit -amend` : to make change
-
 </details>
 ---
 
